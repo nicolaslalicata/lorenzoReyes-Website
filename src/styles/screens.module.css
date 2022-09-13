@@ -1,29 +1,33 @@
-.viewHome, .viewWhoAmI, .viewFunction, .viewDocs, .viewContact {
+.viewHome,
+.viewWhoAmI,
+.viewFunction,
+.viewDocs,
+.viewContact {
   display: flex;
+  position: absolute;
 }
 @media (max-width: 600px) {
-  .viewHome {
+  .viewHome,
+  .viewWhoAmI,
+  .viewFunction,
+  .viewDocs,
+  .viewContact {
     transform: rotate(90deg);
     position: absolute;
+  }
+  .viewHome {
   }
   .viewWhoAmI {
-    transform: rotate(90deg);
-    position: absolute;
     top: 220px;
   }
-  .viewFunction{
-    transform: rotate(90deg);
-    position: absolute;
+  .viewFunction {
     top: 40px;
   }
-  .viewDocs{
-    transform: rotate(90deg);
-    position: absolute;
+  .viewDocs {
     top: -10px;
   }
-  .viewContact{
-    transform: rotate(90deg);
-    position: absolute;
-    top: -80px
+  .viewContact {
+    top: -80px;
+    height: auto;
   }
 }

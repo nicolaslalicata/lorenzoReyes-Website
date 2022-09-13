@@ -135,6 +135,7 @@ samp {
 }
 @media (max-width: 600px) {
   #root{
-    height: 3000px;
+    height: auto;
+    width: auto;
   }
 }
