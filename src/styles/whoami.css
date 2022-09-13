@@ -1,5 +1,29 @@
-.title-who{
-    width: 100%;
-    font-size: 50px;
-    margin-right: 300px;
+.title-who {
+  margin-left: 300px;
+  font-size: 30px;
+  margin-top: 101px;
+}
+
+.subtitle-who {
+  width: 50%;
+  margin-left: 230px;
+  margin-top: 60px;
+}
+
+.imgWhoIm {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.imgWho {
+  padding: 10px;
+}
+
+.pFooterWho {
+  font-size: 20px;
+  width: 100%;
+  margin-left: -129px;
+  margin-top: 30px;
+  background-image: url("../assets/whoFooter.png");
+  background-size: 1330px 80px;
 }
