@@ -1,0 +1,31 @@
+/* .pFooterWho {
+  font-size: 20px;
+  width: 100%;
+  margin-left: -129px;
+  margin-top: 30px;
+  background-image: url("../assets/whoFooter.png");
+  background-size: 1330px 80px;
+} */
+.container {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  padding: 5% 0 0 5%;
+}
+.title{
+  font-size: 30px;
+  padding-bottom: 2%;
+}
+.subtitle{
+  font-size: 18px;
+  padding-bottom: 1%;
+}
+.footer{
+  margin-top: 2%;
+  font-size: 18px;
+  padding-bottom: 1%;
+}
+.boxImages{
+  display: flex;
+  gap: 1%;
+}

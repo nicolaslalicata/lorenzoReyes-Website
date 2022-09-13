@@ -1,9 +1,11 @@
 .navBar {
+  height: auto;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
   width: 100%;
   max-width: 280px;
+  background-color: rgb(236, 236, 236);
 }
 .menu {
   display: flex;
@@ -28,4 +30,12 @@
 }
 .btnNavBar:hover {
   background-color: "red" !important;
+}
+@media (max-width: 600px) {
+  .navBar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+  }
 }
