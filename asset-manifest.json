@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/lorenzoReyes-Website/static/css/main.b39963ee.css",
+    "main.js": "/lorenzoReyes-Website/static/js/main.f16a098c.js",
+    "static/media/img-home.gif": "/lorenzoReyes-Website/static/media/img-home.ebb75bdf64ac1bbf55d2.gif",
+    "static/media/mesa.png": "/lorenzoReyes-Website/static/media/mesa.3d2ba1c753b21b451830.png",
+    "static/media/img1-functions.svg": "/lorenzoReyes-Website/static/media/img1-functions.a65fca4e2af98c70b330f852ab2e9566.svg",
+    "static/media/img3-functions.svg": "/lorenzoReyes-Website/static/media/img3-functions.d062d71c9ef84b8c9445a66928e75abc.svg",
+    "index.html": "/lorenzoReyes-Website/index.html",
+    "static/media/img2-functions.svg": "/lorenzoReyes-Website/static/media/img2-functions.da0e57cd576cb3ab28a91c7764d71db3.svg",
+    "main.b39963ee.css.map": "/lorenzoReyes-Website/static/css/main.b39963ee.css.map",
+    "main.f16a098c.js.map": "/lorenzoReyes-Website/static/js/main.f16a098c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b39963ee.css",
+    "static/js/main.f16a098c.js"
+  ]
+}
