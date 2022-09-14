@@ -6,6 +6,7 @@ import linkedin from "../assets/linkedin.png";
 import wsp from "../assets/wsp.png";
 import telegram from "../assets/telegram.png";
 import styles from "../styles/navbar.module.css";
+import questions from "../assets/question.png";
 
 const NavBar = ({ screen }) => {
   const [isShownHome, setIsShownHome] = useState(false);
@@ -64,21 +65,27 @@ const NavBar = ({ screen }) => {
         </button>
       </div>
       <div className={styles.imgContainer1}>
-        <a href="facebook.com" target="_blank">
+        <a href="https://github.com/lorenzoreyes" target="_blank">
           <img className={styles.imagen} src={github} alt="" />
         </a>
-        <a href="facebook.com" target="_blank">
+        <a href="mailto:lreyes@udesa.edu.ar" target="_blank">
           <img className={styles.imagen} src={email} alt="" />
         </a>
-        <a href="facebook.com" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/lorenzo-reyes-77717b96/"
+          target="_blank"
+        >
           <img className={styles.imagen} src={linkedin} alt="" />
         </a>
       </div>
+      <div className={styles.question}>
+        <img className={styles.question} src={questions} alt="" />
+      </div>
       <div className={styles.imgContainer2}>
-        <a href="facebook.com" target="_blank">
+        <a href="https://wa.me/5492477562603" target="_blank">
           <img className={styles.imagen} src={wsp} alt="" />
         </a>
-        <a href="facebook.com" target="_blank">
+        <a href="https://t.me/quanvas" target="_blank">
           <img className={styles.imagen} src={telegram} alt="" />
         </a>
       </div>

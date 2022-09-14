@@ -31,11 +31,40 @@
 .btnNavBar:hover {
   background-color: "red" !important;
 }
+
+.question {
+  margin-left: 28px;
+  padding-top: 15px;
+}
+
+.question {
+  animation: question infinite 1s ease-in-out;
+}
+
+@keyframes question {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
 @media (max-width: 600px) {
-  .navBar{
+  .navBar {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     width: auto;
+  }
+
+  .question {
+    margin-left: 3px;
+    padding-top: 15px;
   }
 }

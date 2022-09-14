@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 .container {
   display: flex;
@@ -25,27 +25,26 @@
   width: 100%;
   height: 50px;
 }
-.btnCard:hover{
+.btnCard:hover {
   background-color: #6dd26b;
   color: #fff;
 }
-.form{
+.form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: space-around;
   width: 80%;
 }
-.textArea{
+.textArea {
   flex: 1;
   height: 600px;
 }
 
-
-.titleFooter{
+.titleFooter {
   margin: 25px 0;
   height: auto;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -53,10 +52,10 @@
   text-align: left;
   color: #3f3f3f;
 }
-.subtitleFooter{
+.subtitleFooter {
   height: 100px;
   text-align: start;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;

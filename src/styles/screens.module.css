@@ -16,18 +16,22 @@
     position: absolute;
   }
   .viewHome {
+    top: 30px;
+    width: auto;
   }
   .viewWhoAmI {
-    top: 220px;
+    top: 190px;
   }
   .viewFunction {
-    top: 40px;
+    top: 60px;
   }
   .viewDocs {
     top: -10px;
   }
   .viewContact {
-    top: -80px;
+    top: -391px;
     height: auto;
+    padding-left: 340px;
+    width: auto;
   }
 }

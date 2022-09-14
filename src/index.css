@@ -130,11 +130,11 @@ samp {
   font-family: "Roboto";
   background-color: rgb(236, 236, 236);
 }
-#root{
+#root {
   background-color: rgb(236, 236, 236);
 }
 @media (max-width: 600px) {
-  #root{
+  #root {
     height: auto;
     width: auto;
   }
