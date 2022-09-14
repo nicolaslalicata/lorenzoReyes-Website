@@ -1,0 +1,37 @@
+.viewHome,
+.viewWhoAmI,
+.viewFunction,
+.viewDocs,
+.viewContact {
+  display: flex;
+  position: absolute;
+}
+@media (max-width: 600px) {
+  .viewHome,
+  .viewWhoAmI,
+  .viewFunction,
+  .viewDocs,
+  .viewContact {
+    transform: rotate(90deg);
+    position: absolute;
+  }
+  .viewHome {
+    top: 30px;
+    width: auto;
+  }
+  .viewWhoAmI {
+    top: 190px;
+  }
+  .viewFunction {
+    top: 60px;
+  }
+  .viewDocs {
+    top: -10px;
+  }
+  .viewContact {
+    top: -391px;
+    height: auto;
+    padding-left: 340px;
+    width: auto;
+  }
+}
