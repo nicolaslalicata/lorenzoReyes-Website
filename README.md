@@ -1,10 +1,13 @@
 # Lorenzo Reyes Website
 
-## **Se realizo una reformulación y depuración del codigo del proyecto original desde 0, pudiendo dejar de manera correcta, ligera y ordenada la pagina para que sea visible en diferentes resoluciones y dispositivos. Se utilizo ReactsJS y NES.css y Framer-motion como librerias.**
+## **A reformulation and debugging of the code of the original project was done from 0, being able to leave the page in a correct, light and tidy way so that it can be visible in different resolutions and devices. We used ReactsJS and NES.css and Framer-motion as libraries.**
 
 ---
 
 ![coins](src/assets/img-readme.png)
+
+---
+
 
 # Getting Started with Create React App
 
@@ -23,3 +26,4 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ![logo](src/assets/nn.png)
+
